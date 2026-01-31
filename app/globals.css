@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F0E9D9;
+  --foreground: #063248;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-roboto);
+}
+
+html {
+  background-color: #F0E9D9 !important;
+  color: #063248 !important;
+}
+
+body {
+  font-family: var(--font-roboto), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #F0E9D9 !important;
+  color: #063248 !important;
+}
+
+/* Force text color on main content */
+main h1, main h2, main h3, main h4, main h5, main h6, 
+main p, main span, main div, main a, main li, main dt, main dd,
+header h1, header h2, header h3, header p, header span, header a,
+footer p, footer span, footer a,
+section h1, section h2, section h3, section p, section span, section a {
+  color: #063248 !important;
+}
+
+/* Force border color for borders */
+.border-steel-600,
+.border-steel-700,
+.border-steel-800,
+[class*="border-steel"] {
+  border-color: #697c85 !important;
+}

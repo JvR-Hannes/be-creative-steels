@@ -1,0 +1,25 @@
+<svg width="640" height="400" viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Exposed steel beams installed during a home extension</title>
+  <desc id="desc">Abstract illustration of structural steel beams inside a building frame on a dark background.</desc>
+  <defs>
+    <linearGradient id="bgBeams" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d1d5db"/>
+      <stop offset="1" stop-color="#6b7280"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="url(#bgBeams)"/>
+  <rect x="40" y="120" width="560" height="22" fill="url(#beam)"/>
+  <rect x="60" y="160" width="20" height="180" fill="#4b5563"/>
+  <rect x="180" y="160" width="20" height="180" fill="#4b5563"/>
+  <rect x="300" y="160" width="20" height="180" fill="#4b5563"/>
+  <rect x="420" y="160" width="20" height="180" fill="#4b5563"/>
+  <rect x="540" y="160" width="20" height="180" fill="#4b5563"/>
+  <rect x="40" y="210" width="560" height="16" fill="url(#beam)" opacity="0.9"/>
+  <rect x="40" y="260" width="560" height="10" fill="#6b7280" opacity="0.7"/>
+  <rect x="0" y="310" width="640" height="90" fill="#020617"/>
+</svg>
+
